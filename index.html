@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Eyad calculate</title>
+        <link rel="icon" type="image/png" href="calc.png">
+        <h1>Student Grade Calculator</h1>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form>
+            <div class="Eyad">
+                <label for="math">math:</label>
+                <input type="number" id="math">
+            </div>
+            <div class="Eyad">
+                <label for="english">english:</label>
+                <input type="number" id="english">
+            </div>
+            <div class="Eyad">
+                <label for="science">science:</label>
+                <input type="number" id="science">
+            </div>
+            <div class="Eyad">
+                <label for="history">history:</label>
+                <input type="number" id="history">
+            </div>
+             
+             <div class="Eyad">
+                <label for="art">art:</label>
+                <input type="number" id="art">
+            </div>
+            <div class="buttonreset">
+                <input type="button" 
+                 value="calculate Grade" 
+                 onclick="result()">
+                <input type="reset">  
+            </div>
+            <div class="Average">
+                <b>Average: <span id="Average">--</span>%</b>
+                <br/>
+                <b>Status: <span id="value">--</span></b>
+            </div>
+        </form>
+       <script src="script.js"></script> 
+    </body>
+</html>
